@@ -15,7 +15,7 @@ public class HassRestService {
 
     public HassRestService() {
         this.webClient = WebClient.builder()
-                .baseUrl("http://192.168.1.209:8123")
+                .baseUrl("http://24.80.132.186:8123")
 
                 .build();
     }

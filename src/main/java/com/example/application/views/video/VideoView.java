@@ -12,7 +12,7 @@ import com.vaadin.flow.router.Route;
 public class VideoView extends VerticalLayout {
     public VideoView() {
 
-        Video video = new Video("http://192.168.1.209:5080/LiveApp/streams/790959164419468023195632.mp4");
+        Video video = new Video("http://24.80.132.186:5081/LiveApp/streams/790959164419468023195632.mp4");
         video.getStyle().set("margin","auto");
         video.getStyle().set("width","80%");
         video.getStyle().set("height","auto");
