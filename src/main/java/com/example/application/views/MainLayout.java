@@ -1,8 +1,9 @@
 package com.example.application.views;
 
 
-import com.example.application.views.camera.CameraView;
 import com.example.application.views.light.LightView;
+import com.example.application.views.audio.AudioView;
+import com.example.application.views.video.VideoView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
@@ -115,10 +116,12 @@ public class MainLayout extends AppLayout {
 
     private MenuItemInfo[] createMenuItems() {
         return new MenuItemInfo[]{ //
-                new MenuItemInfo("Light", "la la-globe", LightView.class), //
+                new MenuItemInfo("Audio", "la la-globe", AudioView.class), //
 
-                new MenuItemInfo("Camera", "la la-file", CameraView.class), //
+                new MenuItemInfo("Light", "la la-file", LightView.class), //
 
+
+                new MenuItemInfo("Video", "la la-file", VideoView.class), //
         };
     }
 
